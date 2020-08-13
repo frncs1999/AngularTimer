@@ -50,6 +50,10 @@ export class AppComponent {
     return this.currentVal >= this.maxVal;
   }
 
+  exit() {
+    window.close()
+  }
+
 
 
 
