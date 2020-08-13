@@ -9,7 +9,7 @@ import 'rxjs/add/operator/do';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
 
@@ -49,6 +49,7 @@ export class AppComponent {
   get isFinished() {
     return this.currentVal >= this.maxVal;
   }
+
 
 
 
